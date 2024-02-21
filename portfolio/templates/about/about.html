@@ -1,0 +1,49 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %}About | Me{% endblock title %}
+
+{% block content %}
+
+<!--about section start-->
+<section class="about" id="about">
+    <div class="title reveal">
+        <h2 class="section-title">about me</h2>
+    </div>
+
+    <div class="content">
+
+        <div class="column col-left reveal">
+            <div class="image-card">
+                <img src="{% static 'image/about-me.jpg'%} " alt="">
+            </div>
+        </div>
+
+        <div class="column col-right reveal">
+            <h2 class="content-title">Hey there!  I'm Abdul Barik</h2>
+            <p class="paragraph-text">Creative Front-End Developer offering 1+ years of experience providing high-impact web solutions for 
+                diverse industry organizations. Skilled in designing, developing and testing multiple web-based 
+                applications incorporating a range of technologies. Aspiring to combine broad background with strong 
+                technical skills to excel as a Front-End Developer. <br><br> Skilled in designing, developing and testing multiple web-based 
+                applications incorporating a range of technologies. Aspiring to combine broad background with strong 
+                technical skills to excel as a Front-End Developer.<br><br> Developing and testing multiple web-based 
+                applications incorporating a range of technologies. Aspiring to combine broad background with strong 
+                technical skills to excel as a Front-End Developer</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+
+    </div>
+
+</section>
+<!--about section end-->
+
+
+
+
+
+
+
+
+
+
+
+{% endblock content %}

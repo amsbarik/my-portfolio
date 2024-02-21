@@ -1,0 +1,62 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %}Home | Me{% endblock title %}
+
+{% block content %}
+
+<!--work section start-->
+<section class="work" id="work">
+    <div class="title reveal">
+        <h2 class="section-title">My Work</h2>
+    </div>
+    <div class="content">
+        <div class="card reveal">
+            <div class="card-image">
+                <img src="{% static 'image/my-work/w01.jpg' %}" alt="">
+            </div>
+        </div>
+        <div class="card reveal">
+            <div class="card-image">
+                <img src="{% static 'image/my-work/w02.jpg' %}" alt="">
+            </div>
+        </div>
+        <div class="card reveal">
+            <div class="card-image">
+                <img src="{% static 'image/my-work/w03.jpg' %}" alt="">
+            </div>
+        </div>
+        <div class="card reveal">
+            <div class="card-image">
+                <img src="{% static 'image/my-work/w04.jpg' %}" alt="">
+            </div>
+        </div>
+        <div class="card reveal">
+            <div class="card-image">
+                <img src="{% static 'image/my-work/w05.jpg' %}" alt="">
+            </div>
+        </div>
+        <div class="card reveal">
+            <div class="card-image">
+                <img src="{% static 'image/my-work/w06.jpg' %}" alt="...">
+            </div>
+        </div>
+
+        <div class="card reveal">
+            <div class="card-image">
+                <img src="{% static 'image/my-work/w07.jpg' %}" alt="...">
+            </div>
+        </div>
+        <div class="card reveal">
+            <div class="card-image">
+                <img src="{% static 'image/my-work/w08.jpg' %}" alt="...">
+            </div>
+        </div>
+
+        <div class="title reveal">
+            <a href="#" class="btn"> see more </a>
+        </div>
+    </div>
+</section>
+<!--work section end-->
+
+{% endblock content %}
